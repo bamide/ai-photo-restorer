@@ -1,10 +1,10 @@
 # [RestorePhotos.io](https://restorephotos.io/)
 
-This project restores old face photos using AI. Watch the [4 minute explainer video](https://twitter.com/nutlope/status/1614794731396931585) to see how I built this or see the [15 second demo](https://twitter.com/nutlope/status/1612488923716136962).
+This project restores old face photos using Artificial Intelligent. Watch the [4 minute explainer video](https://twitter.com/nutlope/status/1614794731396931585) to see how I built this or see the [15 second demo](https://twitter.com/nutlope/status/1612488923716136962).
 
 [![Face Photo Restorer](./public/screenshot.png)](https://restorephotos.io/)
 
-## How it works
+## How it works on AI retorer
 
 It uses an ML model from the Applied Research Center called [GFPGAN](https://github.com/TencentARC/GFPGAN) on [Replicate](https://replicate.com/) to restore face photos. This application gives you the ability to upload any photo, which will send it through this ML Model using a Next.js API route, and return your restored photo.
 
@@ -12,7 +12,7 @@ It uses an ML model from the Applied Research Center called [GFPGAN](https://git
 
 Note: I just added auth so these steps are not complete as of now. You can git clone from [this specific commit](https://github.com/Nutlope/restorePhotos/tree/1c5c8ac4f52a08f68a3091d3b21be8a65aef71f2).
 
-### Cloning the repository the local machine.
+# ## Cloning the repository to a local machine
 
 ```bash
 git clone
